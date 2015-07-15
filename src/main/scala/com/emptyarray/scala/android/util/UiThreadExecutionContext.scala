@@ -8,6 +8,9 @@ import scala.util.{Failure, Success, Try}
 /**
  * Created by Weasel on 7/7/15.
  */
+
+// Based on Macroid: http://macroid.github.io/
+
 object UiThreadExecutionContext extends ExecutionContext {
   private lazy val uiHandler = new Handler(Looper.getMainLooper)
 
