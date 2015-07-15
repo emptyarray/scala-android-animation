@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="baseMargin">22dp</dimen>
+    <dimen name="halfBaseMargin">11dp</dimen>
+    <dimen name="doubleBaseMargin">44dp</dimen>
+    <dimen name="elementSize">44dp</dimen>
+</resources>

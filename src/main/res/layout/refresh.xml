@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:paddingBottom="@dimen/doubleBaseMargin"
+        >
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="32sp"
+              android:text="ACCOUNT BALANCE"
+              android:gravity="center"
+              android:id="@+id/accountBalanceHeading"
+              android:textColor="@color/MediumGrey"
+              android:layout_marginTop="@dimen/doubleBaseMargin"
+            />
+
+    <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/balance"
+            android:alpha="0"
+            android:textColor="@color/MediumGrey"
+            />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/baseMargin"
+              android:textSize="48sp"
+              android:id="@+id/balance"
+              android:gravity="center"
+              android:layout_centerInParent="true"
+              android:textColor="@color/Green"
+            />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/elementSize"
+            android:text="Refresh"
+            android:id="@+id/refreshButton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/baseMargin"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:layout_margin="@dimen/doubleBaseMargin"
+            android:background="@drawable/button"
+            android:textColor="@android:color/white"
+            />
+</RelativeLayout>
